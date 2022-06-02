@@ -1,1 +1,0 @@
-export { PolicyPage } from './PolicyPage';

@@ -6,7 +6,9 @@ import "./App.css";
 import logo from './ReactIcon.png';
 
 import { InputForm } from "./InputForm/InputForm";
-import { PolicyPage } from "./policy";
+import { ContactPage } from "./contact";
+
+  
 
 function App() {
   return (
@@ -20,7 +22,7 @@ function App() {
             <Link className="App-link" to={"/"}> Home </Link>
             <Link className="App-link" to={"/About"}> About </Link>
             <Link className="App-link" to={"/form"}> Form </Link>
-            <Link className="App-link" to={"/policy"}> Policy</Link>
+            <Link className="App-link" to={"/Contact"}> Contact</Link>
           </div>
         </div>
         <Routes>
@@ -31,7 +33,7 @@ function App() {
           <Route path="*" element={<div>404</div>} />
           <Route path="/about" element={<div>Tu powinna być strona about </div>} />
           <Route path="/form" element={<InputForm/>}  />
-          <Route path="/policy"element={<PolicyPage/>} />
+          <Route path="/contact"element={<ContactPage/>} />
         </Routes>
       </div>
     </BrowserRouter>
