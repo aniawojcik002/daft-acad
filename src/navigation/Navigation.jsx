@@ -27,6 +27,7 @@ export const Navigation = () => {
             <Link className="Navigation-link" to={"/About"}> About </Link>
             <Link className="Navigation-link" to ={"/form"}> Form </Link>
             <Link className="Navigation-link" to={"/Contact"}> Contact</Link>
+            <Link className="Navigation-link" to={"/Rick"}> Rick</Link>
           </div>}
         </AppBar>
         </div>
